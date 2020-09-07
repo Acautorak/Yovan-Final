@@ -357,6 +357,7 @@ Objects {
   Transform {
     Location {
       X: 1130
+      Y: -1344.68604
       Z: 250
     }
     Rotation {
@@ -1188,7 +1189,7 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      Y: -150
+      Y: -1494.68604
       Z: 170
     }
     Rotation {

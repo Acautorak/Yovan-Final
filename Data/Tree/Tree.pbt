@@ -36,7 +36,6 @@ Objects {
   ChildIds: 8056448427314717497
   ChildIds: 13210666117591684162
   ChildIds: 9240110582605881154
-  ChildIds: 5060348800845174064
   ChildIds: 625655928948709568
   ChildIds: 15193646867913607064
   ChildIds: 14691732057434484141
@@ -516,45 +515,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "DRVECE"
-  }
-}
-Objects {
-  Id: 5060348800845174064
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -6426.93262
-      Y: -41478.4
-      Z: 5153.06348
-    }
-    Rotation {
-    }
-    Scale {
-      X: 33.9668503
-      Y: 34.6808319
-      Z: 1.37594867
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13294902272889086201
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {

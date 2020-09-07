@@ -36,6 +36,19 @@
         Name: "damage_amount"
         Float: 0
       }
+      Overrides {
+        Name: "color_accent"
+        Color {
+          R: 0.559248
+          G: 0.635417
+          B: 0.016547
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 6
+      }
     }
     Assets {
       Id: 5512000712628422335

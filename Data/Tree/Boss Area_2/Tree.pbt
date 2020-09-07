@@ -23,7 +23,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 3600
-            Y: -6000
+            Y: -7344.68604
             Z: 25.000061
           }
         }
@@ -281,6 +281,7 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
+      Y: -1344.68604
       Z: 150
     }
     Rotation {
@@ -320,7 +321,7 @@ Objects {
   Transform {
     Location {
       X: 750
-      Y: 650
+      Y: -694.686035
       Z: 150
     }
     Rotation {
@@ -473,67 +474,16 @@ Objects {
   }
 }
 Objects {
-  Id: 3486287548856689807
+  Id: 8839370792148273410
   Name: "Basic Door"
   Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3548941698894595981
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10147635152912105743
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Basic Door"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3690
-            Y: -2800
-            Z: 30
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999771
-          }
-        }
-        Overrides {
-          Name: "cs:AutoOpen"
-          Bool: true
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16688398523305215819
-    }
-  }
-}
-Objects {
-  Id: 16628115076279963349
-  Name: "Fantasy Castle Wall 01"
-  Transform {
     Location {
-      X: 4000
-      Y: -2800
+      X: 3690
+      Y: -4144.68604
+      Z: 30
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -542,25 +492,518 @@ Objects {
     }
   }
   ParentId: 3548941698894595981
+  ChildIds: 7784816222547619858
+  ChildIds: 7276929511360960220
+  ChildIds: 13082807703037590347
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AutoOpen"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TimeOpen"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:OpenLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 450
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:AutoOpen:tooltip"
+      String: "This door will open when a player gets close, and cannot be interact with"
+    }
+    Overrides {
+      Name: "cs:TimeOpen:tooltip"
+      String: "With AutoOpen, how long the day stays open with no player near."
+    }
+    Overrides {
+      Name: "cs:OpenLabel:tooltip"
+      String: "Use label to open the door (without AutoOpen)"
+    }
+    Overrides {
+      Name: "cs:CloseLabel:tooltip"
+      String: "Use label to close the door (without AutoOpen)"
+    }
+    Overrides {
+      Name: "cs:Speed:tooltip"
+      String: "How fast the door opens or closes, in degrees / second"
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Will reset (to be closed) at the start of a round"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 16757675604571197622
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8839370792148273410
+    SubobjectId: 10147635152912105743
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 13082807703037590347
+  Name: "RotationRoot"
+  Transform {
+    Location {
     }
-    Teams {
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8839370792148273410
+  ChildIds: 794645052132755642
+  ChildIds: 16659588895725967064
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13082807703037590347
+    SubobjectId: 4897414754306192198
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 16659588895725967064
+  Name: "RotatingTrigger"
+  Transform {
+    Location {
+      Y: 90
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.5
+      Y: 1.8
+      Z: 3
+    }
+  }
+  ParentId: 13082807703037590347
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 16659588895725967064
+    SubobjectId: 1246049429361270485
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 794645052132755642
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13082807703037590347
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 794645052132755642
+    SubobjectId: 18266391154671272119
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 7276929511360960220
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8839370792148273410
+  ChildIds: 6727286661460103260
+  ChildIds: 8476360787958731049
+  ChildIds: 6818905130823719752
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 7276929511360960220
+    SubobjectId: 10557770524490718929
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 6818905130823719752
+  Name: "Helper_DoorCloseSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7276929511360960220
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Door Type"
+      Enum {
+        Value: "mc:esfx_domestic_doors_01:7"
       }
     }
+    Overrides {
+      Name: "bp:Creak Volume"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1104198953447072835
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 6818905130823719752
+    SubobjectId: 12167031406303105861
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 8476360787958731049
+  Name: "Helper_DoorOpenSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7276929511360960220
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Door Type"
+      Enum {
+        Value: "mc:esfx_domestic_doors_01:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Creak Type"
+      Enum {
+        Value: "mc:esfx_door_wood_creaks_01:2"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1104198953447072835
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 8476360787958731049
+    SubobjectId: 9501031386802641188
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 6727286661460103260
+  Name: "BasicDoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7276929511360960220
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RotationRoot"
+      ObjectReference {
+        SelfId: 13082807703037590347
+      }
+    }
+    Overrides {
+      Name: "cs:OpenSound"
+      ObjectReference {
+        SelfId: 8476360787958731049
+      }
+    }
+    Overrides {
+      Name: "cs:CloseSound"
+      ObjectReference {
+        SelfId: 6818905130823719752
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 321472518781775172
+    }
+  }
+  InstanceHistory {
+    SelfId: 6727286661460103260
+    SubobjectId: 12332117041429108817
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 7784816222547619858
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8839370792148273410
+  ChildIds: 12032314604720384907
+  ChildIds: 1863073844833524457
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+  InstanceHistory {
+    SelfId: 7784816222547619858
+    SubobjectId: 11128779048250505247
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 1863073844833524457
+  Name: "StaticTrigger"
+  Transform {
+    Location {
+      Y: 90
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.5
+      Y: 1.8
+      Z: 3
+    }
+  }
+  ParentId: 7784816222547619858
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1863073844833524457
+    SubobjectId: 17267525847061779172
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
+  }
+}
+Objects {
+  Id: 12032314604720384907
+  Name: "BasicDoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7784816222547619858
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 8839370792148273410
+      }
+    }
+    Overrides {
+      Name: "cs:RotationRoot"
+      ObjectReference {
+        SelfId: 13082807703037590347
+      }
+    }
+    Overrides {
+      Name: "cs:RotatingTrigger"
+      ObjectReference {
+        SelfId: 16659588895725967064
+      }
+    }
+    Overrides {
+      Name: "cs:StaticTrigger"
+      ObjectReference {
+        SelfId: 1863073844833524457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1031736639489708352
+    }
+  }
+  InstanceHistory {
+    SelfId: 12032314604720384907
+    SubobjectId: 5801545535109964678
+    InstanceId: 3486287548856689807
+    TemplateId: 16688398523305215819
   }
 }
 Objects {
@@ -723,7 +1166,7 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      Y: -150
+      Y: -1494.68604
       Z: 170
     }
     Rotation {

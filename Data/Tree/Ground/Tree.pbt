@@ -7170,6 +7170,7 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      Y: -1.55541992
     }
     Rotation {
       Yaw: -90
