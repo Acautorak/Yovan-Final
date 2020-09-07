@@ -7,3 +7,12 @@
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
+Assets {
+  Id: 1801848507296861480
+  Name: "Terrain - Snow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-snow_001_wa"
+  }
+}

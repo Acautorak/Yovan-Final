@@ -1,6 +1,32 @@
 ﻿Name: "Lobby Area"
 RootId: 3765684858975843531
 Objects {
+  Id: 476098984892491386
+  Name: "Shop"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3765684858975843531
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Shop"
+  }
+}
+Objects {
   Id: 6007349840065099166
   Name: "World Labels"
   Transform {
@@ -156,7 +182,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Shop"
+    FilePartitionName: "Shop_1"
   }
 }
 Objects {
