@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 17706334203701286670
-  Name: "Fantasy Castle Bannister 01 - Curve Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_bannister_001_curve_sm"
-  }
-}
-Assets {
   Id: 16548528974074499830
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -194,15 +185,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_003"
-  }
-}
-Assets {
-  Id: 5512335830567327151
-  Name: "Arch Fancy Peaked 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_ogive_2m_001"
   }
 }
 Assets {

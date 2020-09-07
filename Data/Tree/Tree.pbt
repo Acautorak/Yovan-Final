@@ -40,8 +40,7 @@ Objects {
   ChildIds: 625655928948709568
   ChildIds: 15193646867913607064
   ChildIds: 14691732057434484141
-  ChildIds: 16113769403060956760
-  ChildIds: 3025931449344515481
+  ChildIds: 176660665077914132
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -54,21 +53,19 @@ Objects {
   }
 }
 Objects {
-  Id: 3025931449344515481
-  Name: "Fantasy Castle Bannister 01 - Curve Small"
+  Id: 176660665077914132
+  Name: "TOWN"
   Transform {
     Location {
-      X: -11527.7373
-      Y: -23974.5723
-      Z: 117.953613
+      X: -533.437073
+      Y: -561.438171
     }
     Rotation {
-      Yaw: 61.5089912
     }
     Scale {
-      X: 2.68793702
-      Y: 2.68793702
-      Z: 2.68793702
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
@@ -78,59 +75,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 17706334203701286670
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16113769403060956760
-  Name: "Arch Fancy Peaked 2m"
-  Transform {
-    Location {
-      X: -9537.3584
-      Y: -24362.6289
-      Z: -65.4952087
-    }
-    Rotation {
-      Yaw: 100.31057
-    }
-    Scale {
-      X: 8.18073463
-      Y: 8.18073463
-      Z: 8.18073463
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5512335830567327151
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "TOWN"
   }
 }
 Objects {
