@@ -1,0 +1,91 @@
+﻿MetaVersion: 1
+MarketplaceDetails {
+  Id: "deb05f87b77b4437ad73073296eaee86"
+  OwnerAccountId: "d1073dbcc404405cbef8ce728e53d380"
+  OwnerName: "Morticai"
+  Version: "1.14.0"
+}
+AssetIdsOriginalToNew {
+  key: 633982945275732435
+  value: 8532486451691718743
+}
+AssetIdsOriginalToNew {
+  key: 880602151129032324
+  value: 12598484126813495320
+}
+AssetIdsOriginalToNew {
+  key: 1014355808419921836
+  value: 16849201936666006804
+}
+AssetIdsOriginalToNew {
+  key: 2739815648079257768
+  value: 8113431417356232708
+}
+AssetIdsOriginalToNew {
+  key: 3552073997217596069
+  value: 18443952253246867882
+}
+AssetIdsOriginalToNew {
+  key: 4110306884272460598
+  value: 5455120204354407028
+}
+AssetIdsOriginalToNew {
+  key: 6380074869628201153
+  value: 173074932798512965
+}
+AssetIdsOriginalToNew {
+  key: 6652149231841382570
+  value: 2407917473744073746
+}
+AssetIdsOriginalToNew {
+  key: 7465368998497419452
+  value: 4249040014748780340
+}
+AssetIdsOriginalToNew {
+  key: 8124405343923068689
+  value: 14450268782494644533
+}
+AssetIdsOriginalToNew {
+  key: 9770511928359673738
+  value: 575117743295531412
+}
+AssetIdsOriginalToNew {
+  key: 10654839067837344631
+  value: 5678599029362123479
+}
+AssetIdsOriginalToNew {
+  key: 10719258412098771738
+  value: 4577147117720543606
+}
+AssetIdsOriginalToNew {
+  key: 10841859800697765370
+  value: 7854282789334148936
+}
+AssetIdsOriginalToNew {
+  key: 13275603454610301263
+  value: 406541876356258656
+}
+AssetIdsOriginalToNew {
+  key: 13706331181105299022
+  value: 18060482857974826846
+}
+AssetIdsOriginalToNew {
+  key: 16318178024945519655
+  value: 8359209859437839807
+}
+AssetIdsOriginalToNew {
+  key: 16432142365117423158
+  value: 6886067920582029902
+}
+AssetIdsOriginalToNew {
+  key: 16491943913220480600
+  value: 7784415521600209879
+}
+AssetIdsOriginalToNew {
+  key: 17965447331605235528
+  value: 1069715505649636407
+}
+AssetIdsOriginalToNew {
+  key: 18012244764686992458
+  value: 3443119292398847900
+}
