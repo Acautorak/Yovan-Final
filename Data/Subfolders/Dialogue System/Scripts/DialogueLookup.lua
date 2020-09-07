@@ -106,7 +106,7 @@ end
 
 local rightSoldierDialogue = {
 	{speaker = 0, name = names.kevin, image = portraitImages.taco, text = "We need help, those... things are killing us!"},
-	{speaker = 1, name = names.player, image = portraitImages.player, text = "Captain Mathias sent me, i will deal with them"},
+	{speaker = 1, name = names.player, image = portraitImages.player, text = "Don't worry i will deal with them"},
 	{speaker = 0, name = names.kevin, image = portraitImages.taco, text = "Thank you champion"}
 }
 

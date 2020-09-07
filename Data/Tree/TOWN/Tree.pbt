@@ -1,6 +1,226 @@
 ﻿Name: "TOWN"
 RootId: 176660665077914132
 Objects {
+  Id: 14691732057434484141
+  Name: "LAMPIONI DO GRADA"
+  Transform {
+    Location {
+      X: 533.437073
+      Y: 561.438171
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 176660665077914132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LAMPIONI DO GRADA"
+  }
+}
+Objects {
+  Id: 10642729748754747630
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Location {
+      X: -15665.7324
+      Y: -17121.4531
+      Z: 1571.23938
+    }
+    Rotation {
+      Yaw: -86.6407166
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 176660665077914132
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15373.0898
+            Y: -16574.1504
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 300
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 11160099289163708027
+          }
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 8
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 10721322361165698318
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Location {
+      X: -15665.7324
+      Y: -17121.4531
+      Z: 1571.23938
+    }
+    Rotation {
+      Yaw: -86.6407166
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 176660665077914132
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15678.1611
+            Y: -16592.0566
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 150
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 1940477462891944876
+          }
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 6
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 3267165485349460412
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 176660665077914132
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15132.2949
+            Y: -16560.0156
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 1
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
   Id: 10365097586827401984
   Name: "Fantasy Castle Pillar 02 - Base"
   Transform {

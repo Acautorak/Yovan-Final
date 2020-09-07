@@ -76,9 +76,9 @@ Objects {
   Name: "Swimmable Water Radioactive"
   Transform {
     Location {
-      X: 3108.28027
-      Y: -3025.05859
-      Z: -367.742706
+      X: 2462.17285
+      Y: -3145.30078
+      Z: -656.781372
     }
     Rotation {
       Yaw: -33.6334229

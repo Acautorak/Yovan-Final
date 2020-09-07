@@ -1,6 +1,58 @@
 ﻿Name: "Mobs"
 RootId: 13210666117591684162
 Objects {
+  Id: 2870749757468062322
+  Name: "RPG Dragon Enemy - Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13210666117591684162
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13420344242969750217
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RPG Dragon Enemy - Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1040.85767
+            Y: -17679.9063
+            Z: 3604.19019
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:CurrentHealth"
+          Float: 600
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.71695983
+            Y: 1.71695983
+            Z: 1.71695983
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4416473798845455098
+    }
+  }
+}
+Objects {
   Id: 13788814593793610368
   Name: "IceRaptorNPC"
   Transform {

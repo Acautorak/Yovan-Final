@@ -10,9 +10,9 @@
         Name: "RPG Dragon Enemy - Medium"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.71695983
+            Y: 1.71695983
+            Z: 1.71695983
           }
         }
         ParentId: 4781671109827199097
@@ -370,6 +370,14 @@
           Overrides {
             Name: "cs:ProjectileHoming"
             Bool: true
+          }
+          Overrides {
+            Name: "cs:HasQuest"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:QuestID"
+            Int: 5
           }
         }
         WantsNetworking: true

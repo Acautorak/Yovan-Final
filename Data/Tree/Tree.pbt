@@ -35,24 +35,15 @@ Objects {
   ChildIds: 10747898969647797256
   ChildIds: 8056448427314717497
   ChildIds: 13210666117591684162
-  ChildIds: 9240110582605881154
   ChildIds: 625655928948709568
   ChildIds: 15193646867913607064
-  ChildIds: 14691732057434484141
   ChildIds: 176660665077914132
   ChildIds: 11321169662655922328
-  ChildIds: 17933858125339062886
-  ChildIds: 5363506542540362836
-  ChildIds: 5592255429328607576
-  ChildIds: 14125296064255156512
-  ChildIds: 6184625776850565725
-  ChildIds: 8069481075028461795
-  ChildIds: 5204868004380101828
-  ChildIds: 2309140880803721488
-  ChildIds: 9151020297893107821
-  ChildIds: 3267165485349460412
-  ChildIds: 10642729748754747630
-  ChildIds: 10721322361165698318
+  ChildIds: 14251868457869411759
+  ChildIds: 4229934304703211259
+  ChildIds: 5229905754463974175
+  ChildIds: 15615959043685257200
+  ChildIds: 323387723442016388
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -65,484 +56,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10721322361165698318
-  Name: "Equipment Display Purchase Pad"
-  Transform {
-    Location {
-      X: -15665.7324
-      Y: -17121.4531
-      Z: 1571.23938
-    }
-    Rotation {
-      Yaw: -86.6407166
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6059391594860902873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Equipment Display Purchase Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -16211.5986
-            Y: -17153.4941
-            Z: 1571.23938
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -86.6407166
-          }
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 150
-        }
-        Overrides {
-          Name: "cs:EquipmentAsset"
-          AssetReference {
-            Id: 1940477462891944876
-          }
-        }
-        Overrides {
-          Name: "cs:RequiredResourceAmount"
-          Int: 6
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 10642729748754747630
-  Name: "Equipment Display Purchase Pad"
-  Transform {
-    Location {
-      X: -15665.7324
-      Y: -17121.4531
-      Z: 1571.23938
-    }
-    Rotation {
-      Yaw: -86.6407166
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6059391594860902873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Equipment Display Purchase Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -15906.5273
-            Y: -17135.5879
-            Z: 1571.23938
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -86.6407166
-          }
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 300
-        }
-        Overrides {
-          Name: "cs:EquipmentAsset"
-          AssetReference {
-            Id: 11160099289163708027
-          }
-        }
-        Overrides {
-          Name: "cs:RequiredResourceAmount"
-          Int: 8
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 3267165485349460412
-  Name: "Equipment Display Purchase Pad"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6059391594860902873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Equipment Display Purchase Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -15665.7324
-            Y: -17121.4531
-            Z: 1571.23938
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -86.6407166
-          }
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 1
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 9151020297893107821
-  Name: "Kill Zone"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13591331349196528036
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 146.658966
-            Y: 18.2276077
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13648825478633622894
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 15925.0605
-            Y: -24462.6543
-            Z: 159.750061
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 56.1219521
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11879051204336036717
-    }
-  }
-}
-Objects {
-  Id: 2309140880803721488
-  Name: "Kill Zone"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13591331349196528036
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -46.0476074
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 37.9051514
-            Y: 155.912506
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 396.198242
-            Y: -410.957031
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13648825478633622894
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 10775.7139
-            Y: -32315.0078
-            Z: 159.750061
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11879051204336036717
-    }
-  }
-}
-Objects {
-  Id: 5204868004380101828
-  Name: "Kill Zone"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13591331349196528036
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 49.5797348
-            Y: 108.718681
-            Z: 18.7934265
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -32.5684204
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -1166.74976
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13648825478633622894
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5681.80566
-            Y: -40526.0469
-            Z: 159.750061
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11879051204336036717
-    }
-  }
-}
-Objects {
-  Id: 8069481075028461795
-  Name: "Kill Zone"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13591331349196528036
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 76.8079376
-            Y: 32.9183388
-            Z: 14.092515
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 56.3684196
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 157.561768
-            Y: -134.78125
-            Z: -764.825439
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13648825478633622894
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1634.43408
-            Y: -45558.4297
-            Z: 159.750061
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11879051204336036717
-    }
-  }
-}
-Objects {
-  Id: 6184625776850565725
-  Name: "Kill Zone"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13591331349196528036
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 20.9014091
-            Y: 98.1833496
-            Z: 8.55828857
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.758667
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1256.19238
-            Y: -2694.30078
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13648825478633622894
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -378.538086
-            Y: -48972.3516
-            Z: 159.750061
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11879051204336036717
-    }
-  }
-}
-Objects {
-  Id: 14125296064255156512
+  Id: 323387723442016388
   Name: "Named Location"
   Transform {
     Scale {
@@ -557,24 +71,11 @@ Objects {
       key: 6914351225150253899
       value {
         Overrides {
-          Name: "Position"
-          Vector {
-            X: 1777.45313
-            Z: 25.0000076
-          }
-        }
-        Overrides {
           Name: "Scale"
           Vector {
-            X: 69.6537857
-            Y: 112.615013
-            Z: 25.7917194
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -5.54797363
+            X: 51.5252075
+            Y: 57.8462868
+            Z: 5
           }
         }
       }
@@ -589,88 +90,28 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13153.8164
-            Y: -42474.9961
-            Z: 120.943657
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5984235938909643820
-    }
-  }
-}
-Objects {
-  Id: 5592255429328607576
-  Name: "Named Location"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6914351225150253899
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 13.3344078
-            Y: 9.99999619
-            Z: 5.43970776
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 82.5752869
-            Z: 466.60672
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -8.58285522
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12084009895330886478
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fire plane rift"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2089.39746
-            Y: -51586.1172
-            Z: 612.833923
+            X: -12721.7793
+            Y: -22402.8125
+            Z: 1556.7959
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.76453841
-            Y: 1.76453841
-            Z: 1.76453841
+            X: 2.89829588
+            Y: 2.89829588
+            Z: 2.89829588
           }
         }
         Overrides {
           Name: "cs:Name"
-          String: "Fire plane rift"
+          String: "Burzuma"
         }
         Overrides {
           Name: "cs:TextColor"
           Color {
-            R: 0.722
-            G: 0.0802222192
+            R: 0.954000115
+            G: 0.832857192
             A: 1
           }
         }
@@ -682,8 +123,56 @@ Objects {
   }
 }
 Objects {
-  Id: 5363506542540362836
-  Name: "Portal To A Location"
+  Id: 15615959043685257200
+  Name: "roll ability"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10942409432736078653
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5.02021122
+            Y: 6.0849967
+            Z: 1.06952763
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17057536534755799539
+      value {
+        Overrides {
+          Name: "Name"
+          String: "roll ability"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12809.9844
+            Y: -20775.5117
+            Z: 1571.23926
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6453929494417071253
+    }
+  }
+}
+Objects {
+  Id: 5229905754463974175
+  Name: "Fall Damage"
   Transform {
     Scale {
       X: 1
@@ -694,100 +183,46 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5063355568464640327
-      value {
-        Overrides {
-          Name: "bp:Color A"
-          Color {
-            R: 0.554000139
-            G: 0.14949213
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Color B"
-          Color {
-            R: 0.738000154
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Color C"
-          Color {
-            R: 0.514000058
-            G: 0.0326349214
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Edge Distance"
-          Float: 1.06754148
-        }
-        Overrides {
-          Name: "bp:Color Offset A"
-          Float: 0.312382072
-        }
-        Overrides {
-          Name: "bp:Color Offset B"
-          Float: 1
-        }
-        Overrides {
-          Name: "bp:Color Offset C"
-          Float: 1
-        }
-        Overrides {
-          Name: "bp:Emissive Boost"
-          Float: 30.2593136
-        }
-        Overrides {
-          Name: "bp:Swirl Color"
-          Color {
-            R: 0.658
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12614167284714683440
+      key: 7840478093453456171
       value {
         Overrides {
           Name: "Name"
-          String: "Fire Portal"
+          String: "Fall Damage"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 15503.5059
-            Y: -53963.2109
-            Z: 16388.8691
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -23.928772
+            X: -9882.76758
+            Y: -21424.3848
+            Z: 324.408936
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.21187961
-            Y: 1.21187961
-            Z: 1.21187961
+            X: 1.79789639
+            Y: 1.79789639
+            Z: 16.3782806
           }
         }
       }
     }
     TemplateAsset {
-      Id: 9240332544930054585
+      Id: 9576034453464991407
     }
   }
 }
 Objects {
-  Id: 17933858125339062886
-  Name: "Healing Zone"
+  Id: 4229934304703211259
+  Name: "Respawn Settings"
   Transform {
+    Location {
+      X: -12079.7119
+      Y: -23742.4336
+      Z: 207.069092
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -795,26 +230,96 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6525672248640690063
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Healing Zone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -21622.2617
-            Y: -49178.2461
-            Z: 6027.79346
-          }
-        }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:none"
       }
     }
-    TemplateAsset {
-      Id: 16707471551379966800
+  }
+}
+Objects {
+  Id: 14251868457869411759
+  Name: "Player Settings"
+  Transform {
+    Location {
+      X: -12044.2861
+      Y: -23474.7852
+      Z: 208.310181
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    PlayerMovementSettings {
+      WalkSpeed: 640
+      MaxAcceleration: 1800
+      WalkableFloorAngle: 44
+      JumpMaxCount: 1
+      JumpVelocity: 900
+      GroundFriction: 8
+      GravityScale: 1.9
+      MaxSwimSpeed: 420
+      Buoyancy: 1
+      TouchForceFactor: 1
+      BrakingDecelerationFlying: 600
+      MaxFlightSpeed: 600
+      MovementControlMode {
+        Value: "mc:emovementcontrolmode:lookrelative"
+      }
+      LookControlMode {
+        Value: "mc:elookcontrolmode:relative"
+      }
+      FacingMode {
+        Value: "mc:efacingmode:faceaimwhenactive"
+      }
+      DefaultRotationRate: 540
+      SlideRotationRate: 20
+      LookAtCursorProjectionPlane {
+        Value: "mc:eprojectionplane:xy"
+      }
+      LookAtCursorProjectionPlaneAnchor {
+        Value: "mc:eprojectionplaneanchor:playerposition"
+      }
+      MountedMaxAcceleration: 1800
+      MountedWalkSpeed: 960
+      MountedJumpMaxCount: 1
+      MountedJumpVelocity: 900
+      HeadVisibleToSelf: true
+      IsSlideEnabled: true
+      IsCrouchEnabled: true
+      IsJumpEnabled: true
+      CanMoveForward: true
+      CanMoveBackward: true
+      CanMoveLeft: true
+      CanMoveRight: true
+      AbilityAimMode {
+        Value: "mc:eabilityaimmode:viewrelative"
+      }
+      AppearanceChannelingTime: 2
+      MountChannelingTime: 2
+      FlipOnMultiJump: true
     }
   }
 }
@@ -870,32 +375,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "TOWN"
-  }
-}
-Objects {
-  Id: 14691732057434484141
-  Name: "LAMPIONI DO GRADA"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "LAMPIONI DO GRADA"
   }
 }
 Objects {
@@ -1308,35 +787,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "DRVECE"
-  }
-}
-Objects {
-  Id: 9240110582605881154
-  Name: "SVETLO ZEMLJA"
-  Transform {
-    Location {
-      X: 8725.56738
-      Y: -18400.2246
-      Z: 556.186218
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "SVETLO ZEMLJA"
   }
 }
 Objects {
@@ -11227,6 +10677,14 @@ Objects {
           Name: "Name"
           String: "Shift to Sprint"
         }
+        Overrides {
+          Name: "cs:CrouchWalkSpeed"
+          Float: 250
+        }
+        Overrides {
+          Name: "cs:CrouchRunSpeed"
+          Float: 300
+        }
       }
     }
     TemplateAsset {
@@ -12326,9 +11784,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 868.580566
-            Y: 1306.13281
-            Z: 2293.67822
+            X: 222.472656
+            Y: 1185.89063
+            Z: 2004.63953
           }
         }
         Overrides {

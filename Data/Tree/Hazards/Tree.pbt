@@ -1,6 +1,1191 @@
 ﻿Name: "Hazards"
 RootId: 10747898969647797256
 Objects {
+  Id: 17933858125339062886
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -21622.2617
+            Y: -49178.2461
+            Z: 6027.79346
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
+  Id: 3199661310851414074
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4841.24512
+            Y: -20285.3164
+            Z: 729.720398
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.9160576
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.3125
+            Z: 140.233521
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635203302
+            Y: 41.8078766
+            Z: 3.51904464
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 1329343478917103664
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3309.27686
+            Y: -17936.793
+            Z: 621.713867
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 37.3162689
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 64.8083496
+            Y: -439.712433
+            Z: 140.233521
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635198474
+            Y: 25.6562099
+            Z: 3.51904464
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 9552455362285362582
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3558.34229
+            Y: -17353.584
+            Z: 633.807434
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 134.68959
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.3125
+            Z: 140.233521
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635189712
+            Y: 31.1008911
+            Z: 3.51904464
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 3952945265106825459
+  Name: "Poison Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5075594846372664617
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.50086546
+            Y: 1.74591029
+            Z: 0.453692794
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45.3670959
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5775.89307
+            Y: -18595.7383
+            Z: 368.843658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16527805543446060571
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -48.4674072
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 9.03585815
+            Y: 5.1515274
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 13447643702144670746
+  Name: "Poison Zone"
+  Transform {
+    Location {
+      X: 5775.89307
+      Y: -18595.7383
+      Z: 368.843658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5075594846372664617
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.50086546
+            Y: 1.74591029
+            Z: 0.453692794
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45.3670959
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6155.53369
+            Y: -18286.0625
+            Z: 368.843658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16527805543446060571
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -48.4674072
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 9.03585815
+            Y: 5.1515274
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 5621823113894058201
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7959.08057
+            Y: -16603.0078
+            Z: 881.670715
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -156.872559
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.3125
+            Z: 140.233459
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635216534
+            Y: 20.2801933
+            Z: 3.51904464
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 16279105924651453433
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9653.95703
+            Y: -16189.7705
+            Z: 995.922485
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.276854873
+            Yaw: 123.318184
+            Roll: -3.93167233
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 50
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.312256
+            Z: 140.233459
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635207236
+            Y: 27.1981201
+            Z: 3.51904488
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -4.88278198
+            Yaw: -0.623565674
+            Roll: 7.52468348
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 3035963386729349293
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9508.61133
+            Y: -15919.7158
+            Z: 855.313293
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 1.00602531
+            Yaw: 133.411407
+            Roll: 3.80243349
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.3125
+            Z: 140.233521
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635197878
+            Y: 23.3404102
+            Z: 3.51904678
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 11283629874812822309
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10027.8076
+            Y: -17773.957
+            Z: 767.932556
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
+  Id: 12492274204874124304
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 15842.2393
+            Y: -17488.6523
+            Z: 2180.25464
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.41243291
+            Y: 2.41243291
+            Z: 2.41243291
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
+  Id: 17115078145329238858
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 16204.9883
+            Y: -17504.1777
+            Z: 2180.25464
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.14001417
+            Y: 2.14001417
+            Z: 2.14001417
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
+  Id: 11653212112629606003
+  Name: "Poison Zone"
+  Transform {
+    Location {
+      X: 15427.3252
+      Y: -16343.668
+      Z: 1725.99939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.617378
+      Y: 2.617378
+      Z: 2.617378
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 15803.0693
+            Y: -16838.9961
+            Z: 1798.29578
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.617378
+            Y: 2.617378
+            Z: 2.617378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 14091073366120173792
+  Name: "Poison Zone"
+  Transform {
+    Location {
+      X: 13873.0049
+      Y: -16105.8066
+      Z: 1292.04163
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.617378
+      Y: 2.617378
+      Z: 2.617378
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 15427.3252
+            Y: -16343.668
+            Z: 1725.99939
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.617378
+            Y: 2.617378
+            Z: 2.617378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 15735395317032511931
+  Name: "Poison Zone"
+  Transform {
+    Location {
+      X: 13873.0049
+      Y: -16105.8066
+      Z: 1292.04163
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.617378
+      Y: 2.617378
+      Z: 2.617378
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 14737.1855
+            Y: -16105.8066
+            Z: 1433.17505
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.617378
+            Y: 2.617378
+            Z: 2.617378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 9782180387785199735
+  Name: "Poison Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 13873.0049
+            Y: -16105.8066
+            Z: 1292.04163
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.617378
+            Y: 2.617378
+            Z: 2.617378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 8788641142263836757
+  Name: "Poison Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11809434864792108708
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Poison Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 12973.4521
+            Y: -16195.9619
+            Z: 1098.91467
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.82237577
+            Y: 2.82237577
+            Z: 2.82237577
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10606543271707601197
+    }
+  }
+}
+Objects {
+  Id: 3345934309195159822
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 16420.4863
+            Y: -17227.8887
+            Z: 2181.24976
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.14844346
+            Y: 2.14844346
+            Z: 2.14844346
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
   Id: 11378438675076685443
   Name: "ArrowTrapAutomatic"
   Transform {

@@ -1,6 +1,197 @@
 ﻿Name: "MapLoot"
 RootId: 8056448427314717497
 Objects {
+  Id: 16147398639307014978
+  Name: "Loot Bag 25"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8056448427314717497
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1662624805173243890
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.52650213
+            Y: 5.24233198
+            Z: 5.24233103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 69.7448044
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10206514578575974245
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Loot Bag 25"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2804.04932
+            Y: -17521.1348
+            Z: 460.695221
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10547374723785961576
+    }
+  }
+}
+Objects {
+  Id: 14663307880835360084
+  Name: "Loot Bag 25"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8056448427314717497
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1662624805173243890
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 6.68090582
+            Y: 3.92679763
+            Z: 3.92682648
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -118.027283
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -128.659134
+            Y: -262.17514
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10206514578575974245
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Loot Bag 25"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 13404.3965
+            Y: -18131.666
+            Z: 864.684
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 115.296471
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10547374723785961576
+    }
+  }
+}
+Objects {
+  Id: 1755986877246938324
+  Name: "Loot Bag 50"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8056448427314717497
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10206514578575974245
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Loot Bag 50"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1798.95911
+            Y: -17703.1426
+            Z: 3604.19019
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.98124695
+            Y: 3.98124695
+            Z: 3.98124695
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -91.6410522
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1516726316710239635
+    }
+  }
+}
+Objects {
   Id: 11434273467413296544
   Name: "Loot Bag 25"
   Transform {
