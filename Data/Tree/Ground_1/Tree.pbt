@@ -821,17 +821,20 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      X: 0.00906586
+      Y: -5849.99561
     }
     Rotation {
       Yaw: 179.999954
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 8
+      Y: 3
       Z: 1
     }
   }
   ParentId: 7516019659980400105
+  ChildIds: 390738173298376519
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:color"
@@ -849,6 +852,12 @@ Objects {
         G: 0.385417
         B: 0.385417
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1801848507296861480
       }
     }
   }
@@ -870,6 +879,37 @@ Objects {
     StaticMesh {
       Physics {
       }
+    }
+  }
+}
+Objects {
+  Id: 390738173298376519
+  Name: "DDNavMeshGenerator"
+  Transform {
+    Location {
+      X: 312.499939
+      Y: -366.664185
+      Z: 50
+    }
+    Rotation {
+      Yaw: 0.0001263585
+    }
+    Scale {
+      X: 0.125
+      Y: 0.333333343
+      Z: 1
+    }
+  }
+  ParentId: 7412512323619497720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17835036399947247135
     }
   }
 }

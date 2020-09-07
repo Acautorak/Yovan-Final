@@ -1,7 +1,7 @@
-﻿Name: "Shop"
-RootId: 476098984892491386
+﻿Name: "Shop_1"
+RootId: 11662012093633279928
 Objects {
-  Id: 13741743748659821351
+  Id: 3473023619204742566
   Name: "Costumes"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26,11 +26,11 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Costumes"
+    FilePartitionName: "Costumes_1"
   }
 }
 Objects {
-  Id: 12202043162922001374
+  Id: 14353131937053630249
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -47,7 +47,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -110,7 +110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6443574884209958700
+  Id: 15104149345843638470
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -127,7 +127,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -190,7 +190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11288453225115899425
+  Id: 9118322727575484619
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -207,7 +207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -270,7 +270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6442248771118484437
+  Id: 5046764122280836229
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -287,7 +287,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -350,7 +350,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3402226294267623659
+  Id: 2842693788550105488
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -367,7 +367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -430,7 +430,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7573560642389148213
+  Id: 10116757721024227604
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -447,7 +447,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -510,7 +510,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7119388269328793742
+  Id: 15336722322765010745
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -527,7 +527,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -590,7 +590,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11875592952422618296
+  Id: 10952254360640513106
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -607,7 +607,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -670,7 +670,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16097229709712715046
+  Id: 7433152670530560781
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -687,7 +687,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -750,7 +750,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3488887505280951900
+  Id: 15000230446247655609
   Name: "Equipment Display Purchase Pad"
   Transform {
     Scale {
@@ -759,7 +759,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -816,7 +816,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14121923028252810421
+  Id: 6923612747165973335
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -833,7 +833,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 476098984892491386
+  ParentId: 11662012093633279928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

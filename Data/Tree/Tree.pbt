@@ -53,6 +53,14 @@ Objects {
   ChildIds: 3267165485349460412
   ChildIds: 10642729748754747630
   ChildIds: 10721322361165698318
+  ChildIds: 8459485103433499657
+  ChildIds: 7951321290567633308
+  ChildIds: 1477811200006744353
+  ChildIds: 2791740519352818644
+  ChildIds: 12796105581988417061
+  ChildIds: 10482292696252036736
+  ChildIds: 4132140547333302142
+  ChildIds: 1009909310385296311
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -62,6 +70,388 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1009909310385296311
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 4900
+      Y: 10300
+      Z: 550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 88.9771652
+    Color {
+      R: 0.459999979
+      G: 0.860529661
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 2552.15479
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 4132140547333302142
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 2350
+      Y: -6000
+      Z: 650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 1
+      G: 0.0299999714
+      B: 0.0299999714
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 3793.6875
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 10482292696252036736
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18550
+            Y: -17850
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 12748734323520414329
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 150
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Staff of Zul\'Zokaq"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 12796105581988417061
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18200
+            Y: -17900
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 3182798045401535510
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "mace and shield"
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 2791740519352818644
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -17600
+            Y: -17450
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 16301956755852222092
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Fiery blade"
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 76
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 1477811200006744353
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -17300
+            Y: -17300
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 3293135210203877674
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Poison Crossbow"
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 100
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 7951321290567633308
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -16950
+            Y: -17250
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 14981753837521153745
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Basic Crossbow"
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 50
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 8459485103433499657
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -16650
+            Y: -17200
+            Z: 1600
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 7300386228413817757
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
   }
 }
 Objects {

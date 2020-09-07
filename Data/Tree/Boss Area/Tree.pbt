@@ -79,12 +79,11 @@ Objects {
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: -1325
-      Y: -225
+      X: 1150
+      Y: 5450
       Z: -50
     }
     Rotation {
-      Yaw: -3.05175781e-05
     }
     Scale {
       X: 1
@@ -124,9 +123,9 @@ Objects {
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 200
-      Y: 1450
-      Z: -50
+      X: 550
+      Y: 4950
+      Z: -49.9999847
     }
     Rotation {
       Yaw: -90.0000305
@@ -169,6 +168,8 @@ Objects {
   Name: "NPC Spawn Point"
   Transform {
     Location {
+      X: 4600
+      Y: 6000
       Z: -50
     }
     Rotation {
@@ -185,7 +186,7 @@ Objects {
     Overrides {
       Name: "cs:NPC"
       AssetReference {
-        Id: 3090477863714944504
+        Id: 11918259483932100496
       }
     }
   }
@@ -212,7 +213,9 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
-      Z: 150
+      X: 1200
+      Y: 6200
+      Z: 300
     }
     Rotation {
     }
@@ -250,9 +253,9 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 400
-      Y: -650
-      Z: 150
+      X: 1600
+      Y: 5550
+      Z: 300
     }
     Rotation {
     }
