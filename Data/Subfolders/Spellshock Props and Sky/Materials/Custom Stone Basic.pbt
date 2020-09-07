@@ -10,6 +10,15 @@
         Name: "material_scale"
         Float: 10
       }
+      Overrides {
+        Name: "gradient_color"
+        Color {
+          R: 1
+          G: 0.0799999833
+          B: 0.0799999833
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 11703741663084928907

@@ -218,6 +218,7 @@ Objects {
   Name: "KillTrigger"
   Transform {
     Location {
+      Y: -1344.68604
     }
     Rotation {
     }
