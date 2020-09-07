@@ -74,6 +74,20 @@
         Float: 15000
       }
       Overrides {
+        Name: "cs:HasQuest"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:QuestID"
+        Int: 0
+      }
+      Overrides {
+        Name: "cs:QUESTDATA"
+        AssetReference {
+          Id: 2513915022025652091
+        }
+      }
+      Overrides {
         Name: "cs:Root:tooltip"
         String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
       }

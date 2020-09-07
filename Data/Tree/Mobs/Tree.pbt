@@ -1,6 +1,199 @@
 ﻿Name: "Mobs"
 RootId: 13210666117591684162
 Objects {
+  Id: 13788814593793610368
+  Name: "IceRaptorNPC"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13210666117591684162
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4212840905289249936
+      value {
+        Overrides {
+          Name: "Name"
+          String: "IceRaptorNPC"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13920.416
+            Y: -50675.9492
+            Z: 5347.73535
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -49.6550064
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10489746066047478091
+    }
+  }
+}
+Objects {
+  Id: 1109659329722797742
+  Name: "IceRaptorNPC"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13210666117591684162
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4212840905289249936
+      value {
+        Overrides {
+          Name: "Name"
+          String: "IceRaptorNPC"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -14140.6191
+            Y: -50099.1875
+            Z: 5353.96289
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -57.7366791
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10489746066047478091
+    }
+  }
+}
+Objects {
+  Id: 236061333347712215
+  Name: "RPG Dragon Enemy - Hard"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13210666117591684162
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13420344242969750217
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RPG Dragon Enemy - Hard"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -22249.7
+            Y: -50888.9688
+            Z: 7041.58936
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3242555606451812205
+    }
+  }
+}
+Objects {
+  Id: 7765804992252648359
+  Name: "IceRaptorNPC"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13210666117591684162
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4212840905289249936
+      value {
+        Overrides {
+          Name: "Name"
+          String: "IceRaptorNPC"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -14553.3691
+            Y: -49654.6328
+            Z: 5372.18945
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.7741699
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10489746066047478091
+    }
+  }
+}
+Objects {
   Id: 14572700115469206208
   Name: "NPCIceMarksmanSkeleton"
   Transform {

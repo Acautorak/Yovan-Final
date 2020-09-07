@@ -41,6 +41,19 @@ Objects {
   ChildIds: 15193646867913607064
   ChildIds: 14691732057434484141
   ChildIds: 176660665077914132
+  ChildIds: 11321169662655922328
+  ChildIds: 17933858125339062886
+  ChildIds: 5363506542540362836
+  ChildIds: 5592255429328607576
+  ChildIds: 14125296064255156512
+  ChildIds: 6184625776850565725
+  ChildIds: 8069481075028461795
+  ChildIds: 5204868004380101828
+  ChildIds: 2309140880803721488
+  ChildIds: 9151020297893107821
+  ChildIds: 3267165485349460412
+  ChildIds: 10642729748754747630
+  ChildIds: 10721322361165698318
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -50,6 +63,786 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10721322361165698318
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Location {
+      X: -15665.7324
+      Y: -17121.4531
+      Z: 1571.23938
+    }
+    Rotation {
+      Yaw: -86.6407166
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -16211.5986
+            Y: -17153.4941
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 150
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 1940477462891944876
+          }
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 6
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 10642729748754747630
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Location {
+      X: -15665.7324
+      Y: -17121.4531
+      Z: 1571.23938
+    }
+    Rotation {
+      Yaw: -86.6407166
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15906.5273
+            Y: -17135.5879
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 300
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 11160099289163708027
+          }
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 8
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 3267165485349460412
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15665.7324
+            Y: -17121.4531
+            Z: 1571.23938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -86.6407166
+          }
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 1
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
+    }
+  }
+}
+Objects {
+  Id: 9151020297893107821
+  Name: "Kill Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13591331349196528036
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 146.658966
+            Y: 18.2276077
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13648825478633622894
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 15925.0605
+            Y: -24462.6543
+            Z: 159.750061
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 56.1219521
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11879051204336036717
+    }
+  }
+}
+Objects {
+  Id: 2309140880803721488
+  Name: "Kill Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13591331349196528036
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -46.0476074
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 37.9051514
+            Y: 155.912506
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 396.198242
+            Y: -410.957031
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13648825478633622894
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10775.7139
+            Y: -32315.0078
+            Z: 159.750061
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11879051204336036717
+    }
+  }
+}
+Objects {
+  Id: 5204868004380101828
+  Name: "Kill Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13591331349196528036
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 49.5797348
+            Y: 108.718681
+            Z: 18.7934265
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -32.5684204
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -1166.74976
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13648825478633622894
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5681.80566
+            Y: -40526.0469
+            Z: 159.750061
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11879051204336036717
+    }
+  }
+}
+Objects {
+  Id: 8069481075028461795
+  Name: "Kill Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13591331349196528036
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 76.8079376
+            Y: 32.9183388
+            Z: 14.092515
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 56.3684196
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 157.561768
+            Y: -134.78125
+            Z: -764.825439
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13648825478633622894
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1634.43408
+            Y: -45558.4297
+            Z: 159.750061
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11879051204336036717
+    }
+  }
+}
+Objects {
+  Id: 6184625776850565725
+  Name: "Kill Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13591331349196528036
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20.9014091
+            Y: 98.1833496
+            Z: 8.55828857
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -17.758667
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1256.19238
+            Y: -2694.30078
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13648825478633622894
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -378.538086
+            Y: -48972.3516
+            Z: 159.750061
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11879051204336036717
+    }
+  }
+}
+Objects {
+  Id: 14125296064255156512
+  Name: "Named Location"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1777.45313
+            Z: 25.0000076
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 69.6537857
+            Y: 112.615013
+            Z: 25.7917194
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -5.54797363
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13153.8164
+            Y: -42474.9961
+            Z: 120.943657
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 5592255429328607576
+  Name: "Named Location"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 13.3344078
+            Y: 9.99999619
+            Z: 5.43970776
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.5752869
+            Z: 466.60672
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -8.58285522
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fire plane rift"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2089.39746
+            Y: -51586.1172
+            Z: 612.833923
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.76453841
+            Y: 1.76453841
+            Z: 1.76453841
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Fire plane rift"
+        }
+        Overrides {
+          Name: "cs:TextColor"
+          Color {
+            R: 0.722
+            G: 0.0802222192
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 5363506542540362836
+  Name: "Portal To A Location"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5063355568464640327
+      value {
+        Overrides {
+          Name: "bp:Color A"
+          Color {
+            R: 0.554000139
+            G: 0.14949213
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Color B"
+          Color {
+            R: 0.738000154
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Color C"
+          Color {
+            R: 0.514000058
+            G: 0.0326349214
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Edge Distance"
+          Float: 1.06754148
+        }
+        Overrides {
+          Name: "bp:Color Offset A"
+          Float: 0.312382072
+        }
+        Overrides {
+          Name: "bp:Color Offset B"
+          Float: 1
+        }
+        Overrides {
+          Name: "bp:Color Offset C"
+          Float: 1
+        }
+        Overrides {
+          Name: "bp:Emissive Boost"
+          Float: 30.2593136
+        }
+        Overrides {
+          Name: "bp:Swirl Color"
+          Color {
+            R: 0.658
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12614167284714683440
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fire Portal"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 15503.5059
+            Y: -53963.2109
+            Z: 16388.8691
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -23.928772
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.21187961
+            Y: 1.21187961
+            Z: 1.21187961
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9240332544930054585
+    }
+  }
+}
+Objects {
+  Id: 17933858125339062886
+  Name: "Healing Zone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6525672248640690063
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Healing Zone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -21622.2617
+            Y: -49178.2461
+            Z: 6027.79346
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16707471551379966800
+    }
+  }
+}
+Objects {
+  Id: 11321169662655922328
+  Name: "Portals"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Portals"
   }
 }
 Objects {
@@ -1026,9 +1819,9 @@ Objects {
   Name: "LostSword"
   Transform {
     Location {
-      X: -0.818359375
-      Y: 2.44184685
-      Z: -1.65673828
+      X: -8782.72
+      Y: -13570.0898
+      Z: 17982.6191
     }
     Rotation {
     }
@@ -1226,8 +2019,8 @@ Objects {
     Overrides {
       Name: "bp:color"
       Color {
-        R: 0.0182118881
-        G: 0.549999952
+        R: 0.70600009
+        G: 0.212920606
         A: 1
       }
     }
@@ -4816,8 +5609,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.131390706
-        G: 0.62
+        R: 0.842
+        G: 0.0801904723
         A: 1
       }
     }
@@ -7157,12 +7950,12 @@ Objects {
   Name: "DestroyEarthLord"
   Transform {
     Location {
-      X: -443.807861
-      Y: -231.472656
-      Z: -235.161102
+      X: -8936.63379
+      Y: 17285.5449
+      Z: 1279.30603
     }
     Rotation {
-      Yaw: 78.0594101
+      Yaw: -108.985565
     }
     Scale {
       X: 1
@@ -7678,12 +8471,12 @@ Objects {
   Name: "DestroyIceLord"
   Transform {
     Location {
-      X: -443.807861
-      Y: -231.472656
-      Z: -235.161102
+      X: -9069.03
+      Y: 17038.5313
+      Z: 1287.19482
     }
     Rotation {
-      Yaw: 78.0594101
+      Yaw: 12.6250191
     }
     Scale {
       X: 1
@@ -8199,12 +8992,12 @@ Objects {
   Name: "DestroyFireLord"
   Transform {
     Location {
-      X: -443.807861
-      Y: -231.472656
-      Z: -235.161102
+      X: -8787.99609
+      Y: 17013.6465
+      Z: 1223.80591
     }
     Rotation {
-      Yaw: 78.0594406
+      Yaw: 115.963356
     }
     Scale {
       X: 1
@@ -8720,12 +9513,12 @@ Objects {
   Name: "RetriveSword"
   Transform {
     Location {
-      X: 12.3571777
-      Y: -231.472656
-      Z: -213.026978
+      X: -8201.1582
+      Y: 16549.0508
+      Z: -71.0231
     }
     Rotation {
-      Yaw: 78.0594864
+      Yaw: -35.1262817
     }
     Scale {
       X: 1
@@ -8754,7 +9547,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Name"
-      String: "Mather Cromwell"
+      String: "Varian"
     }
     Overrides {
       Name: "cs:ObjectId"
@@ -9241,12 +10034,12 @@ Objects {
   Name: "KillSkeletons"
   Transform {
     Location {
-      X: 12.3571777
-      Y: -465.222656
-      Z: -213.026978
+      X: -5959.33105
+      Y: 15195.4531
+      Z: -301.608795
     }
     Rotation {
-      Yaw: 78.0595856
+      Yaw: 94.9449158
     }
     Scale {
       X: 1
@@ -9275,7 +10068,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Name"
-      String: "Mather Cromwell"
+      String: "Nathan"
     }
     Overrides {
       Name: "cs:ObjectId"
@@ -9762,12 +10555,12 @@ Objects {
   Name: "DestroyElementalLords"
   Transform {
     Location {
-      X: -283.523438
-      Y: -465.222656
-      Z: -195.499023
+      X: -8317.72
+      Y: 15517.5879
+      Z: -60.4729919
     }
     Rotation {
-      Yaw: 78.0596466
+      Yaw: -63.9714355
     }
     Scale {
       X: 1
@@ -9796,7 +10589,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Name"
-      String: "Mather Cromwell"
+      String: "Fjodr"
     }
     Overrides {
       Name: "cs:ObjectId"

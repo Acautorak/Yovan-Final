@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 13210666117591684162
         ChildIds: 6887995465546052660
         ChildIds: 16188384304550516637
         ChildIds: 16499610448605528061
@@ -370,6 +370,20 @@
           Overrides {
             Name: "cs:ProjectileHoming"
             Bool: true
+          }
+          Overrides {
+            Name: "cs:hasQuest"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:QuestId"
+            Int: 4
+          }
+          Overrides {
+            Name: "cs:QUESTDATA"
+            AssetReference {
+              Id: 2513915022025652091
+            }
           }
         }
         WantsNetworking: true
@@ -798,12 +812,12 @@
         Name: "Dragon Mob"
         Transform {
           Location {
-            X: -0.000171661377
-            Y: 0.000119527183
-            Z: 300
+            X: -381.01825
+            Y: 623.322937
+            Z: 188.53125
           }
           Rotation {
-            Yaw: 8.19622364e-05
+            Yaw: 103.501617
           }
           Scale {
             X: 3.69521618
@@ -816,22 +830,29 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              G: 0.225619376
+              B: 0.618000031
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 200
-              G: 5.99998236
-              B: 5.99998236
+              G: 0.334111512
+              B: 0.868000031
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 2847514166560122750
+              Id: 17777965235899846507
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12510968351439123370
             }
           }
         }
@@ -887,6 +908,15 @@
       PrimaryAsset {
         AssetType: "AnimatedMeshAssetRef"
         AssetId: "npc_dragonling_chubby_basic_001_ref"
+      }
+    }
+    Assets {
+      Id: 12510968351439123370
+      Name: "Ice Opaque"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxmi_ice_opaque"
       }
     }
     PrimaryAssetId {

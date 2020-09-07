@@ -43,6 +43,21 @@ local cooldownRemaining = 0
 
 local projectileImpactListener = nil
 
+local propHasQuest = script:GetCustomProperty("hasQuest")
+local propQuestID = script:GetCustomProperty("questID")
+local propQUESTDATA = require(script:GetCustomProperty("QUESTDATA"))
+local questTable = propQUESTDATA.GetItems()
+
+local questID = 1
+local questName = 2
+local rewardType = 3
+local rewardValue = 4
+local questDescText = 5
+local questCompleteText = 6
+local reqLevel = 7
+local RES_NAME = 8
+local RES_REQ = 9
+local QUEST_DESC = 10
 
 function GetTeam()
 	return ROOT:GetCustomProperty("Team")
@@ -235,6 +250,10 @@ function DropRewards(killer)
 	and Object.IsValid(killer) 
 	and killer:IsA("Player") then
 		killer:AddResource(REWARD_RESOURCE_TYPE, REWARD_RESOURCE_AMOUNT)
+	end
+
+	if propHasQuest then
+		killer:AddResource(questTable[propQuestID][RES_NAME], 1)
 	end
 	
 	-- Drop loot

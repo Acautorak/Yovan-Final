@@ -1,6 +1,179 @@
 ﻿Name: "Hazards"
 RootId: 10747898969647797256
 Objects {
+  Id: 11378438675076685443
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -16811.1523
+            Y: -53504.4336
+            Z: 4307.43115
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:Arrow"
+          AssetReference {
+            Id: 4857932654064633254
+          }
+        }
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 20
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -390.3125
+            Z: 140.233398
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.635209739
+            Y: 7.95692396
+            Z: 3.51904464
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
+  Id: 511997420433440959
+  Name: "ArrowTrapAutomatic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10747898969647797256
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2303106816200482418
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ArrowTrapAutomatic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -20700.7578
+            Y: -48641.1094
+            Z: 6332.36719
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 4.28133106
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4773487141424315949
+      value {
+        Overrides {
+          Name: "cs:DamageAmount"
+          Float: 30
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10384891091842511792
+      value {
+        Overrides {
+          Name: "cs:Arrow"
+          AssetReference {
+            Id: 4857932654064633254
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10712076960726413682
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 134.744293
+            Y: -189.427597
+            Z: 183.609863
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7906426902071488905
+    }
+  }
+}
+Objects {
   Id: 3559386733976718731
   Name: "ArrowTrapAutomatic"
   Transform {
